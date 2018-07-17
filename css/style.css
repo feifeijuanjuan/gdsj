@@ -69,14 +69,15 @@
 
 .change li {
     float: left;
-    color: #000000;
     font-size: 14px;
-    font-family: sans-serif;
     margin-top: 2px;
     font-weight: 200;
     cursor: pointer;
 }
-
+.change li a{
+    color: #000000;
+    font-family: SimSun;
+}
 .change .li-line {
     margin: 0 18px;
     width: 1px;
@@ -104,13 +105,12 @@
     border-bottom: 2px solid #0da4c1;
 }
 
-.bannel{
-    max-width: 1980px;
+.banner{
     height: 261px;
+    background-color: #92aebd;
 }
-.bannel .bg-bannel{
-    background: url("../img/D-1/bannel.jpg") 50% 50% no-repeat;
-    width: 100%;
+.banner .bg-banner{
+    background: url("../img/D-1/banner.png") 0 0 no-repeat;
     height: 100%;
     display: block;
 }
@@ -218,23 +218,22 @@
 }
 
 .ul-list {
-    margin-bottom: 57px;
+    margin-bottom: 35px;
 }
 
 .liter-content {
-    margin-left: 158px;
-    position: relative;
+ width: 335px;
 }
 
 .liter-content .article-title {
     padding-bottom: 8px;
     border-bottom: 1px solid #dcdcdc;
-    max-height: 72px;
+    max-height: 66px;
     overflow: hidden;
 }
 
 .liter-content .article-content {
-    max-height: 72px;
+    max-height: 63px;
     overflow: hidden;
 }
 
@@ -267,7 +266,6 @@
 .mod_service {
     height: 67px;
     background-color: #abcce6;
-    margin-bottom: 25px;
     line-height: 67px;
 }
 
@@ -285,10 +283,6 @@
     font-size: 18px;
 }
 
-.bg-c {
-    background-color: #b4b4b4;
-}
-
 .site-header {
     background-color: #fff;
 }
@@ -301,7 +295,9 @@
 }
 
 .copyright {
-    margin-bottom: 108px;
+    padding-bottom: 108px;
+    background-color: #b4b4b4;
+    padding-top: 25px;
 }
 
 .copyright hr {
@@ -329,28 +325,31 @@
 .mod_service .container {
     position: relative;
 }
-.bannel-module li{
+.banner-module li{
     float: left;
     width: 88px;
     height: 88px;
     border-radius: 50%;
     background-color: #72acdc;
-    margin-right: 26px;
+    margin-right: 25px;
 }
-.bg-bannel .bannel-module{
+.bg-banner .banner-module{
      margin-top: 85px;
     margin-left: 105px;
 }
-.bannel-module a{
+.banner-module a{
     color: #fff;
     text-align: center;
     display: block;
     padding:  3px;
 }
-.bannel-module .title-cn{
+.banner-module .title-cn{
    font-size: 18px;
 }
-.bannel-module .title-en{
+.banner-module .title-en{
     font-size: 10px;
     -webkit-transform: scale(0.8);
+}
+a:focus, a:hover{
+    text-decoration: none;
 }
