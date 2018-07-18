@@ -118,6 +118,18 @@
     display: block;
 }
 
+.case-create-banner {
+    height: 247px;
+    background-color: #33afcb;
+}
+
+.case-create-banner .case-create-bannerbg-banner {
+    background: url("../img/B-1-c/bingli.png") 0 0 no-repeat;
+    height: 100%;
+    display: block;
+}
+
+
 .home {
     background-color: #efefef;
 }
@@ -232,7 +244,10 @@
     max-height: 21px;
     overflow: hidden;
 }
-
+.article-title{
+    max-height: 21px;
+    overflow: hidden;
+}
 .liter-content .article-title {
     padding-bottom: 8px;
     border-bottom: 1px solid #dcdcdc;
@@ -435,7 +450,9 @@ a:focus, a:hover {
 .module-video, .module-book {
     position: relative;
 }
-
+.module-video{
+    margin-bottom: 0;
+}
 .classify {
     background-color: #d6d9de;
     height: 78px;
@@ -490,7 +507,7 @@ a:focus, a:hover {
 
 }
 
-.text {
+.p-content {
     font-family: SimSun;
     font-size: 14px;
     color: #595757;
@@ -523,7 +540,7 @@ a:focus, a:hover {
     margin-right: 12px;
 }
 
-.module-search button {
+.module-search .search-btn {
     width: 107px;
     height: 33px;
     text-align: center;
@@ -611,4 +628,64 @@ textarea {
     margin-top:32px;
     margin-left: 143px;
     border: 1px solid #0da4c1;
+}
+/*轮播图*/
+.box-entry{
+    position: relative;
+}
+.entry-btn{
+    position: absolute;
+    top:163px;
+}
+.banner-lb{
+    background-color: #efefef;
+}
+
+
+#lunbobox {
+    width: 910px;
+    height: 397px;
+    position: relative;
+}
+
+.lunbo {
+    width: 910px;
+    height: 397px;
+}
+
+.lunbo img {
+    width: 910px;
+    height: 397px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#lunbobox ul {
+    width: 735px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    z-index: 5;
+}
+
+#lunbobox ul li {
+    cursor: pointer;
+    width: 95px;
+    height: 5px;
+    float: left;
+    list-style: none;
+    background: #fff;
+    text-align: center;
+    margin: 0 25px 0 0;
+    opacity: 0.8;
+}
+.bg-bar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 16px;
+    background-color: #bcbdbe;
+    opacity: 0.5;
 }
