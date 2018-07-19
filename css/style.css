@@ -129,7 +129,6 @@
     display: block;
 }
 
-
 .home {
     background-color: #efefef;
 }
@@ -244,10 +243,12 @@
     max-height: 21px;
     overflow: hidden;
 }
-.article-title{
+
+.article-title {
     max-height: 21px;
     overflow: hidden;
 }
+
 .liter-content .article-title {
     padding-bottom: 8px;
     border-bottom: 1px solid #dcdcdc;
@@ -450,9 +451,11 @@ a:focus, a:hover {
 .module-video, .module-book {
     position: relative;
 }
-.module-video{
+
+.module-video {
     margin-bottom: 0;
 }
+
 .classify {
     background-color: #d6d9de;
     height: 78px;
@@ -599,10 +602,12 @@ textarea {
     margin-bottom: 32px;
     border: 1px solid #a0a0a0;
 }
-.type-file{
-    display: none!important;
+
+.type-file {
+    display: none !important;
 }
-.btn-upload{
+
+.btn-upload {
     width: 110px;
     height: 29px;
     text-align: center;
@@ -613,10 +618,12 @@ textarea {
     color: #fff;
     border: 1px solid #a0a0a0;
 }
-.ipt-file{
+
+.ipt-file {
     width: 442px;
 }
-.btn-submit{
+
+.btn-submit {
     width: 146px;
     height: 33px;
     line-height: 33px;
@@ -625,23 +632,26 @@ textarea {
     background-color: #0da4c1;
     color: #fff;
     font-size: 20px;
-    margin-top:32px;
+    margin-top: 32px;
     margin-left: 143px;
     border: 1px solid #0da4c1;
 }
+
 /*轮播图*/
-.box-entry{
+.box-entry {
     position: relative;
 }
-.entry-btn{
+
+.entry-btn {
     position: absolute;
-    top:163px;
+    top: 163px;
 }
-.banner-lb{
+
+.banner-lb {
     background-color: #efefef;
 }
 
-.bg-bar{
+.bg-bar {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -650,6 +660,7 @@ textarea {
     background-color: #bcbdbe;
     opacity: 0.5;
 }
+
 .banner-box {
     width: 955px;
     height: 397px;
@@ -703,5 +714,147 @@ textarea {
 }
 
 .bg {
-    background-color: #0b6aa6!important;
+    background-color: #0b6aa6 !important;
+}
+
+.video-home {
+    background-color: #353539;
+}
+
+.video-player {
+    padding: 28px 20px 20px 22px;
+}
+
+.video-box {
+    width: 790px;
+    height: 400px;
+    margin: 16px 0 10px 0;
+}
+
+.video-name {
+    font-family: SimSun;
+    font-size: 14px;
+    color: #fff;
+    width: 740px;
+    overflow: hidden;
+    max-height: 22px;
+}
+
+.video-right li a {
+    font-family: SimSun;
+    font-size: 14px;
+    color: #fff;
+}
+
+.video-right li img {
+    margin-right: 18px;
+}
+
+.video-right li {
+    margin-bottom: 25px;
+    max-height: 21px;
+    overflow: hidden;
+}
+
+.video-right li:last-child {
+    margin-bottom: 0;
+}
+
+.video-right ul {
+    margin-top: 30px;
+    width: 320px;
+}
+
+.video-search {
+    background-color: #d6d9de;
+    height: 80px;
+    line-height: 80px;
+}
+
+.video-search .container {
+    padding-left: 22px;
+}
+
+.video-list {
+    background-color: #efefef;
+}
+
+.video-container {
+    background-color: #f9f8f4;
+    padding: 36px 232px 27px 40px;
+}
+
+.video-list-img {
+    float: left;
+    width: 160px;
+}
+
+.video-list-content {
+    position: relative;
+    margin-left: 176px;
+}
+
+.video-item a h1 {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-bottom: 1px solid #dcdcdc;
+    color: #0da4c1;
+    font-family: SimSun;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.video-item .video-list-content {
+    font-family: SimSun;
+    font-size: 14px;
+    color: #898989;
+    max-height: 112px;
+    overflow: hidden;
+}
+
+.video-des-name {
+    width: 70px;
+    float: left;
+
+}
+.video-des{
+    margin-left: 70px;
+    position: relative;
+}
+.video-classfy {
+    margin: 5px 0;
+}
+.video-item{
+    margin-bottom: 32px;
+}
+.video-item:last-child{
+    margin-bottom: 0;
+}
+.pagination{
+    margin: 18px 0 30px 450px;
+    color: #b5b6b6;
+}
+.ui-pagination-container .ui-pagination-page-item, .ui-pagination-container{
+    border: none;
+    background-color: #efefef;
+}
+.ui-pagination-container .ui-pagination-page-item.active {
+    background: #0098ac;
+    border-color: #0098ac;
+    color: #fff;
+    cursor: default;
+}
+.ui-pagination-page-btn{
+    background-color: #b5b6b6!important;
+    color: #fff!important;
+}
+.ui-pagination-container .ui-pagination-page-item, .ui-pagination-container .ui-pagination-page-btn{
+    padding:2px 10px;
+}
+.ui-pagination-page-btn{
+    margin-left: -1px!important;
+}
+.pagination input{
+    background-color: #efefef;
+    border: 1px solid  #a0a0a0;
 }
