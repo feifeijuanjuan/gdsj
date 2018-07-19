@@ -641,27 +641,28 @@ textarea {
     background-color: #efefef;
 }
 
-
-#lunbobox {
-    width: 910px;
+.bg-bar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 16px;
+    background-color: #bcbdbe;
+    opacity: 0.5;
+}
+.banner-box {
+    width: 955px;
     height: 397px;
     position: relative;
 }
 
-.lunbo {
-    width: 910px;
-    height: 397px;
-}
-
-.lunbo img {
-    width: 910px;
-    height: 397px;
+.pic img {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
 }
 
-#lunbobox ul {
+.tabs {
     width: 735px;
     position: absolute;
     bottom: 5px;
@@ -669,7 +670,7 @@ textarea {
     z-index: 5;
 }
 
-#lunbobox ul li {
+.tabs li {
     cursor: pointer;
     width: 95px;
     height: 5px;
@@ -679,16 +680,28 @@ textarea {
     text-align: center;
     margin: 0 25px 0 0;
     opacity: 0.8;
+
 }
-#lunbobox ul li:nth-of-type(1){
-    background-color: #0b6aa6;
-}
-.bg-bar{
+
+.btn {
+    width: 30px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
     position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 16px;
-    background-color: #bcbdbe;
-    opacity: 0.5;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, .8);
+    color: red;
+}
+
+.bg {
+    background-color: #0b6aa6!important;
 }
