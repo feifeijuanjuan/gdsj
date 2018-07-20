@@ -131,6 +131,7 @@
 
 .home {
     background-color: #efefef;
+    min-width: 1190px;
 }
 
 .home-container {
@@ -291,8 +292,8 @@
     height: 67px;
     background-color: #abcce6;
     line-height: 67px;
+    min-width: 1190px;
 }
-
 .mod_service li {
     float: left;
     margin-right: 182px;
@@ -322,8 +323,8 @@
     padding-bottom: 108px;
     background-color: #b4b4b4;
     padding-top: 25px;
+    min-width: 1190px;
 }
-
 .copyright hr {
     border-top: 1px solid #fff;
     width: 65px;
@@ -459,6 +460,7 @@ a:focus, a:hover {
 .classify {
     background-color: #d6d9de;
     height: 78px;
+    min-width: 1190px;
 }
 
 .book-content {
@@ -719,6 +721,7 @@ textarea {
 
 .video-home {
     background-color: #353539;
+    min-width: 1190px;
 }
 
 .video-player {
@@ -769,6 +772,7 @@ textarea {
     background-color: #d6d9de;
     height: 80px;
     line-height: 80px;
+    min-width: 1190px;
 }
 
 .video-search .container {
@@ -777,6 +781,7 @@ textarea {
 
 .video-list {
     background-color: #efefef;
+    min-width: 1190px;
 }
 
 .video-container {
