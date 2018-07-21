@@ -835,10 +835,9 @@ textarea {
 .video-item:last-child{
     margin-bottom: 0;
 }
-.pagination{
-    margin: 18px 0 30px 450px;
-    color: #b5b6b6;
-}
+.pagination-box{
+    padding: 18px 0 30px 0;
+ }
 .ui-pagination-container .ui-pagination-page-item, .ui-pagination-container{
     border: none;
     background-color: #efefef;
@@ -861,5 +860,6 @@ textarea {
 }
 .pagination input{
     background-color: #efefef;
-    border: 1px solid  #a0a0a0;
+    border: 1px solid  #c5b7b7;
+    color: #888;
 }
